@@ -1,0 +1,151 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+[v i1___awdiv __awdiv `(i  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+[v i1___awmod __awmod `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"24 C:\Users\MSI\Desktop\dengiaothong\code\main.X\mainn.c
+[v _ngat ngat `II(v  1 e 1 0 ]
+"98
+[v _main main `(v  1 e 1 0 ]
+"288 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f887.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"350
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1538
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1600
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2344
+[v _WPUB WPUB `VEuc  1 e 1 @149 ]
+"3385
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3447
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3780
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"3802
+[v _INTF INTF `VEb  1 e 0 @89 ]
+"3804
+[v _IOCB0 IOCB0 `VEb  1 e 0 @1200 ]
+"3806
+[v _IOCB1 IOCB1 `VEb  1 e 0 @1201 ]
+"3808
+[v _IOCB2 IOCB2 `VEb  1 e 0 @1202 ]
+"3810
+[v _IOCB3 IOCB3 `VEb  1 e 0 @1203 ]
+"3812
+[v _IOCB4 IOCB4 `VEb  1 e 0 @1204 ]
+"3918
+[v _RB0 RB0 `VEb  1 e 0 @48 ]
+"3920
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"3922
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"3924
+[v _RB3 RB3 `VEb  1 e 0 @51 ]
+"3926
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"3934
+[v _RBIE RBIE `VEb  1 e 0 @91 ]
+"3936
+[v _RBIF RBIF `VEb  1 e 0 @88 ]
+"3986
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"3988
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"3990
+[v _RE2 RE2 `VEb  1 e 0 @74 ]
+"4132
+[v _TRISB0 TRISB0 `VEb  1 e 0 @1072 ]
+"4134
+[v _TRISB1 TRISB1 `VEb  1 e 0 @1073 ]
+"4136
+[v _TRISB2 TRISB2 `VEb  1 e 0 @1074 ]
+"4138
+[v _TRISB3 TRISB3 `VEb  1 e 0 @1075 ]
+"4140
+[v _TRISB4 TRISB4 `VEb  1 e 0 @1076 ]
+"4180
+[v _TRISE0 TRISE0 `VEb  1 e 0 @1096 ]
+"4182
+[v _TRISE1 TRISE1 `VEb  1 e 0 @1097 ]
+"4184
+[v _TRISE2 TRISE2 `VEb  1 e 0 @1098 ]
+"4292
+[v _nRBPU nRBPU `VEb  1 e 0 @1039 ]
+"19 C:\Users\MSI\Desktop\dengiaothong\code\main.X\mainn.c
+[v _dem dem `c  1 e 1 0 ]
+[v _i i `c  1 e 1 0 ]
+[v _countxanh countxanh `c  1 e 1 0 ]
+[v _countdo countdo `c  1 e 1 0 ]
+"20
+[v _setting_confirmed setting_confirmed `c  1 e 1 0 ]
+"21
+[v _code_7seg code_7seg `DC[10]uc  1 e 10 0 ]
+"98
+[v _main main `(v  1 e 1 0 ]
+{
+"154
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 13 ]
+[v ___awmod@counter counter `uc  1 a 1 12 ]
+"6
+[v ___awmod@divisor divisor `i  1 p 2 7 ]
+[v ___awmod@dividend dividend `i  1 p 2 9 ]
+"35
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 14 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 13 ]
+[v ___awdiv@counter counter `uc  1 a 1 12 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 7 ]
+[v ___awdiv@dividend dividend `i  1 p 2 9 ]
+"42
+} 0
+"24 C:\Users\MSI\Desktop\dengiaothong\code\main.X\mainn.c
+[v _ngat ngat `II(v  1 e 1 0 ]
+{
+"97
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+[v i1___awmod __awmod `(i  1 e 2 0 ]
+{
+[v i1___awmod@sign __awmod `uc  1 a 1 6 ]
+[v i1___awmod@counter __awmod `uc  1 a 1 5 ]
+[v i1___awmod@divisor divisor `i  1 p 2 0 ]
+[v i1___awmod@dividend dividend `i  1 p 2 2 ]
+"35
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v i1___awdiv __awdiv `(i  1 e 2 0 ]
+{
+[v i1___awdiv@quotient __awdiv `i  1 a 2 7 ]
+[v i1___awdiv@sign __awdiv `uc  1 a 1 6 ]
+[v i1___awdiv@counter __awdiv `uc  1 a 1 5 ]
+[v i1___awdiv@divisor divisor `i  1 p 2 0 ]
+[v i1___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0
